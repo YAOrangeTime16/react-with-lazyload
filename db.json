@@ -3,6 +3,8 @@
     {
       "id": 1,
       "image": "images/sample1.jpg",
+      "imageM": "images/sample1@0,5x.jpg",
+      "imageS": "images/sample1@0,25x.jpg",
       "orientation": "landscape",
       "about": "sample1",
       "type": "deco" 
@@ -10,6 +12,8 @@
     {
       "id": 2,
       "image": "images/sample2.jpg",
+      "imageM": "images/sample2@0,5x.jpg",
+      "imageS": "images/sample2@0,25x.jpg",
       "orientation": "landscape",
       "about": "sample2",
       "type": "deco"
@@ -17,6 +21,8 @@
     {
       "id": 3,
       "image": "images/sample3.jpg",
+      "imageM": "images/sample3@0,5x.jpg",
+      "imageS": "images/sample3@0,25x.jpg",
       "orientation": "landscape",
       "about": "sample3",
       "type": "item"
@@ -24,6 +30,8 @@
     {
       "id": 4,
       "image": "images/sample4.jpg",
+      "imageM": "images/sample4@0,5x.jpg",
+      "imageS": "images/sample4@0,25x.jpg",
       "orientation": "landscape",
       "about": "sample4",
       "type": "deco"
@@ -31,6 +39,8 @@
     {
       "id": 5,
       "image": "images/sample5.jpg",
+      "imageM": "images/sample5@0,5x.jpg",
+      "imageS": "images/sample5@0,25x.jpg",
       "orientation": "portrait",
       "about": "sample5",
       "type": "item"
@@ -38,6 +48,8 @@
     {
       "id": 6,
       "image": "images/sample6.jpg",
+      "imageM": "images/sample6@0,5x.jpg",
+      "imageS": "images/sample6@0,25x.jpg",
       "orientation": "landscape",
       "about": "sample6",
       "type": "item"
@@ -45,6 +57,8 @@
     {
       "id": 7,
       "image": "images/sample7.jpg",
+      "imageM": "images/sample7@0,5x.jpg",
+      "imageS": "images/sample7@0,25x.jpg",
       "orientation": "portrait",
       "about": "sample7",
       "type": "item"
@@ -52,6 +66,8 @@
     {
       "id": 8,
       "image": "images/sample8.jpg",
+      "imageM": "images/sample8@0,5x.jpg",
+      "imageS": "images/sample8@0,25x.jpg",
       "orientation": "landscape",
       "about": "sample8",
       "type": "item"
@@ -59,6 +75,8 @@
     {
       "id": 9,
       "image": "images/sample9.jpg",
+      "imageM": "images/sample9@0,5x.jpg",
+      "imageS": "images/sample9@0,25x.jpg",
       "orientation": "landscape",
       "about": "sample9",
       "type": "item"
@@ -66,6 +84,8 @@
     {
       "id": 10,
       "image": "images/sample10.jpg",
+      "imageM": "images/sample10@0,5x.jpg",
+      "imageS": "images/sample10@0,25x.jpg",
       "orientation": "portrait",
       "about": "sample10",
       "type": "item"
@@ -73,6 +93,8 @@
     {
       "id": 11,
       "image": "images/sample11.jpg",
+      "imageM": "images/sample11@0,5x.jpg",
+      "imageS": "images/sample11@0,25x.jpg",
       "orientation": "landscape",
       "about": "sample11",
       "type": "item"
@@ -80,6 +102,8 @@
     {
       "id": 12,
       "image": "images/sample12.jpg",
+      "imageM": "images/sample12@0,5x.jpg",
+      "imageS": "images/sample12@0,25x.jpg",
       "orientation": "portrait",
       "about": "sample12",
       "type": "item"
@@ -87,6 +111,8 @@
     {
       "id": 13,
       "image": "images/sample13.jpg",
+      "imageM": "images/sample13@0,5x.jpg",
+      "imageS": "images/sample13@0,25x.jpg",
       "orientation": "portrait",
       "about": "sample13",
       "type": "item"
@@ -94,6 +120,8 @@
     {
       "id": 14,
       "image": "images/sample14.jpg",
+      "imageM": "images/sample14@0,5x.jpg",
+      "imageS": "images/sample14@0,25x.jpg",
       "orientation": "portrait",
       "about": "sample14",
       "type": "item"
@@ -101,6 +129,8 @@
     {
       "id": 15,
       "image": "images/sample15.jpg",
+      "imageM": "images/sample15@0,5x.jpg",
+      "imageS": "images/sample15@0,25x.jpg",
       "orientation": "landscape",
       "about": "sample15",
       "type": "item"
@@ -108,6 +138,8 @@
     {
       "id": 16,
       "image": "images/sample16.jpg",
+      "imageM": "images/sample16@0,5x.jpg",
+      "imageS": "images/sample16@0,25x.jpg",
       "orientation": "portrait",
       "about": "sample16",
       "type": "item"
@@ -115,6 +147,8 @@
     {
       "id": 17,
       "image": "images/sample17.jpg",
+      "imageM": "images/sample17@0,5x.jpg",
+      "imageS": "images/sample17@0,25x.jpg",
       "orientation": "landscape",
       "about": "sample17",
       "type": "item"
@@ -122,6 +156,8 @@
     {
       "id": 18,
       "image": "images/sample18.jpg",
+      "imageM": "images/sample18@0,5x.jpg",
+      "imageS": "images/sample18@0,25x.jpg",
       "orientation": "portrait",
       "about": "sample18",
       "type": "item"
@@ -129,6 +165,8 @@
     {
       "id": 19,
       "image": "images/sample19.jpg",
+      "imageM": "images/sample19@0,5x.jpg",
+      "imageS": "images/sample19@0,25x.jpg",
       "orientation": "portrait",
       "about": "sample19",
       "type": "item"
@@ -136,6 +174,8 @@
     {
       "id": 20,
       "image": "images/sample20.jpg",
+      "imageM": "images/sample20@0,5x.jpg",
+      "imageS": "images/sample20@0,25x.jpg",
       "orientation": "portrait",
       "about": "sample20",
       "type": "deco"
@@ -143,6 +183,8 @@
     {
       "id": 21,
       "image": "images/sample21.jpg",
+      "imageM": "images/sample21@0,5x.jpg",
+      "imageS": "images/sample21@0,25x.jpg",
       "orientation": "landscape",
       "about": "sample21",
       "type": "item"
@@ -150,6 +192,8 @@
     {
       "id": 22,
       "image": "images/sample22.jpg",
+      "imageM": "images/sample22@0,5x.jpg",
+      "imageS": "images/sample22@0,25x.jpg",
       "orientation": "portrait",
       "about": "sample22",
       "type": "item"
@@ -157,6 +201,8 @@
     {
       "id": 23,
       "image": "images/sample23.jpg",
+      "imageM": "images/sample23@0,5x.jpg",
+      "imageS": "images/sample23@0,25x.jpg",
       "orientation": "landscape",
       "about": "sample23",
       "type": "item"
@@ -164,6 +210,8 @@
     {
       "id": 24,
       "image": "images/sample24.jpg",
+      "imageM": "images/sample24@0,5x.jpg",
+      "imageS": "images/sample24@0,25x.jpg",
       "orientation": "portrait",
       "about": "sample24",
       "type": "item"
@@ -171,6 +219,8 @@
     {
       "id": 25,
       "image": "images/sample25.jpg",
+      "imageM": "images/sample25@0,5x.jpg",
+      "imageS": "images/sample25@0,25x.jpg",
       "orientation": "landscape",
       "about": "sample25",
       "type": "item"
@@ -178,6 +228,8 @@
     {
       "id": 26,
       "image": "images/sample26.jpg",
+      "imageM": "images/sample26@0,5x.jpg",
+      "imageS": "images/sample26@0,25x.jpg",
       "orientation": "portrait",
       "about": "sample26",
       "type": "item"
@@ -185,6 +237,8 @@
     {
       "id": 27,
       "image": "images/sample27.jpg",
+      "imageM": "images/sample27@0,5x.jpg",
+      "imageS": "images/sample27@0,25x.jpg",
       "orientation": "landscape",
       "about": "sample27",
       "type": "deco"
@@ -192,6 +246,8 @@
     {
       "id": 28,
       "image": "images/sample28.jpg",
+      "imageM": "images/sample28@0,5x.jpg",
+      "imageS": "images/sample28@0,25x.jpg",
       "orientation": "portrait",
       "about": "sample28",
       "type": "deco"
@@ -199,6 +255,8 @@
     {
       "id": 29,
       "image": "images/sample29.jpg",
+      "imageM": "images/sample29@0,5x.jpg",
+      "imageS": "images/sample29@0,25x.jpg",
       "orientation": "landscape",
       "about": "sample29",
       "type": "deco"
