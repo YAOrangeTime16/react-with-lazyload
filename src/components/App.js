@@ -18,14 +18,15 @@ const About = () => (<div>About</div>)
 
 class App extends Component {
   render() {
+    console.log(process.env.PUBLIC_URL)
     return (
       <BrowserRouter>
         <div className="App">
           <Header />
           <Switch>
-            <Route exact path="/" component={DefaultPage}/>
-            <Route path='/page2' component={PageTwo}/>
-            <Route path='/about' component={About}/>
+            <Route exact path={process.env.PUBLIC_URL + '/'} component={DefaultPage}/>
+            <Route path={process.env.PUBLIC_URL + '/page2'} component={PageTwo}/>
+            <Route path={process.env.PUBLIC_URL + '/about'} component={About}/>
           </Switch>
         </div>
       </BrowserRouter>

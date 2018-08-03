@@ -44,9 +44,13 @@ export default class Home extends Component {
         landscape.map(item=>{
           const {image, about, type} = item;
           return (
-            <figure className="image-container" onClick={()=>this.enlargeItem(image, about, type, false)}>
-              <LazyLoadComponent key={item.id} >
-                  <img src={item.image} alt={item.about}/>
+            <figure key={item.id} className="image-container" onClick={()=>this.enlargeItem(image, about, type, false)}>
+              <LazyLoadComponent >
+                  <img  src={item.imageS}
+                        srcSet={`${item.imageS} 300w,
+                                 ${item.imageM} 750w,
+                                 ${item.image} 1000w`}
+                        alt={item.about}/>
                   <figcaption>{item.about}</figcaption>
               </LazyLoadComponent>
             </figure>
@@ -67,9 +71,13 @@ export default class Home extends Component {
         portrait.map(item=>{
           const {image, about, type} = item;
           return (
-          <figure className="image-container-port" onClick={()=>this.enlargeItem(image, about, type, true)}>
-            <LazyLoadComponent key={item.id} >
-              <img src={item.image} alt={item.about}/>
+          <figure key={item.id} className="image-container-port" onClick={()=>this.enlargeItem(image, about, type, true)}>
+            <LazyLoadComponent>
+            <img  src={item.image}
+                  srcSet={`${item.imageS} 320w,
+                           ${item.imageM} 750w,
+                           ${item.image} 1000w`}
+                  alt={item.about}/>
               <figcaption>{item.about}</figcaption>
             </LazyLoadComponent>
           </figure>

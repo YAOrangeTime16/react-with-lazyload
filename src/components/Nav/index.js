@@ -1,5 +1,4 @@
 import React from 'react';
-import { goToTop, removeHash } from 'react-scrollable-anchor';
 
 class Nav extends React.Component {
   render(){
