@@ -1,0 +1,104 @@
+figcaption {
+  position: absolute;
+  bottom: 0rem;
+  width: 100%;
+  background: #ffffff;
+  height: 35px;
+  z-index: 100;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 300;
+}
+
+.modal-image-container {
+  width: 80%;
+  margin: 3rem auto 0 auto;
+  @media (min-width: 750px){
+    width: 70%;
+    margin-top: 4rem;
+  }
+  @media (min-width: 1000px){
+    width: 50%;
+  }
+}
+
+.modal-image-container-port {
+  width: 60%;
+  margin: 3rem auto 0 auto;
+  @media (min-width: 750px){
+    width: 40%;
+    margin-top: 3rem;
+  }
+  @media (min-width: 1000px){
+    width: 30%;
+  }
+}
+
+.modal-text {
+  color: #ffffff;
+}
+
+.non-border {
+  border: none;
+  margin: 0;
+}
+
+.showcaseContainer {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: wrap;
+
+  .image-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+    overflow: hidden;
+    margin: 0 0 2% 2%;
+    @media (min-width: 550px) {
+    }
+
+    @media (min-width: 750px) {
+      width: 260px;
+      height: 190px;
+    }
+
+    @media (min-width: 1000px) {
+      width: 210px;
+      height: 170px;
+    }
+
+    @media (min-width: 1200px) {
+      width: 245px;
+      height: 200px;
+    }
+  }
+
+  .image-container-port {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: 0 0 2% 2%;
+    @media (min-width: 550px) {
+      width: 200px;
+    }
+    @media (min-width: 750px) {
+      width: 160px;
+    }
+    @media (min-width: 1000px) {
+      width: 210px;
+    }
+    @media (min-width: 1200px) {
+      width: 180px;
+    }
+  }
+}
