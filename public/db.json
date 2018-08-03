@@ -7,7 +7,8 @@
       "imageS": "images/sample1@0,25x.jpg",
       "orientation": "landscape",
       "about": "sample1",
-      "type": "deco" 
+      "type": "deco",
+      "description": "Qui nostrud pariatur dolore eu voluptate ipsum irure reprehenderit."
     },
     {
       "id": 2,
@@ -16,7 +17,8 @@
       "imageS": "images/sample2@0,25x.jpg",
       "orientation": "landscape",
       "about": "sample2",
-      "type": "deco"
+      "type": "deco",
+      "description": "Labore et nostrud minim ea cupidatat ea labore anim consectetur amet."
     },
     {
       "id": 3,
@@ -232,7 +234,8 @@
       "imageS": "images/sample26@0,25x.jpg",
       "orientation": "portrait",
       "about": "sample26",
-      "type": "item"
+      "type": "item",
+      "description": "Est sint non sint magna irure minim qui do aute proident aliqua pariatur aute deserunt."
     },
     {
       "id": 27,
@@ -241,7 +244,8 @@
       "imageS": "images/sample27@0,25x.jpg",
       "orientation": "landscape",
       "about": "sample27",
-      "type": "deco"
+      "type": "deco",
+      "description": "Est sint non sint magna irure minim qui do aute proident aliqua pariatur aute deserunt."
     },
     {
       "id": 28,
@@ -250,7 +254,8 @@
       "imageS": "images/sample28@0,25x.jpg",
       "orientation": "portrait",
       "about": "sample28",
-      "type": "deco"
+      "type": "deco",
+      "description": "Est sint non sint magna irure minim qui do aute proident aliqua pariatur aute deserunt."
     },
     {
       "id": 29,
@@ -259,7 +264,38 @@
       "imageS": "images/sample29@0,25x.jpg",
       "orientation": "landscape",
       "about": "sample29",
-      "type": "deco"
+      "type": "deco",
+      "description": "Est sint non sint magna irure minim qui do aute proident aliqua pariatur aute deserunt."
+    },
+    {
+      "id": 30,
+      "image": "images/sample30.jpg",
+      "imageM": "images/sample30@0,5x.jpg",
+      "imageS": "images/sample30@0,25x.jpg",
+      "orientation": "portrait",
+      "about": "sample30",
+      "type": "item",
+      "description": "Est sint non sint magna irure minim qui do aute proident aliqua pariatur aute deserunt."
+    },
+    {
+      "id": 31,
+      "image": "images/sample31.jpg",
+      "imageM": "images/sample31@0,5x.jpg",
+      "imageS": "images/sample31@0,25x.jpg",
+      "orientation": "landscape",
+      "about": "sample31",
+      "type": "deco",
+      "description": "Est sint non sint magna irure minim qui do aute proident aliqua pariatur aute deserunt."
+    },
+    {
+      "id": 32,
+      "image": "images/sample32.jpg",
+      "imageM": "images/sample32@0,5x.jpg",
+      "imageS": "images/sample32@0,25x.jpg",
+      "orientation": "landscape",
+      "about": "sample32",
+      "type": "item",
+      "description": "Est sint non sint magna irure minim qui do aute proident aliqua pariatur aute deserunt."
     }
   ]
 }

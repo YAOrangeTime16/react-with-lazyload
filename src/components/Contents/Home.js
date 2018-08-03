@@ -2,6 +2,7 @@ import React, { Component, Fragment } from 'react';
 import axios from 'axios';
 import LazyLoad from 'react-lazyload';
 import ScrollableAnchor from 'react-scrollable-anchor';
+import Modal from './Modal';
 
 const LazyLoadComponent = ({children}) => (
   <LazyLoad height={200} offset={400} once>
@@ -39,25 +40,25 @@ export default class Home extends Component {
     const { landscape } = this.state;
     return (
       <ScrollableAnchor id="interior1" >
-      <div className="showcaseContainer">
-      {
-        landscape.map(item=>{
-          const {image, about, type} = item;
-          return (
-            <figure key={item.id} className="image-container" onClick={()=>this.enlargeItem(image, about, type, false)}>
-              <LazyLoadComponent >
-                  <img  src={item.imageS}
-                        srcSet={`${item.imageS} 300w,
-                                 ${item.imageM} 750w,
-                                 ${item.image} 1000w`}
-                        alt={item.about}/>
-                  <figcaption>{item.about}</figcaption>
-              </LazyLoadComponent>
-            </figure>
-          )
-        })
-      }
-      </div>
+        <div className="showcaseContainer">
+        {
+          landscape.map(item=>{
+            const {image, about, type, description} = item;
+            return (
+              <figure key={item.id} className="image-container" onClick={()=>this.handleModalContent(image, about, type, false, description)}>
+                <LazyLoadComponent >
+                    <img  src={item.imageS}
+                          srcSet={`${item.imageS} 300w,
+                                  ${item.imageM} 750w,
+                                  ${item.image} 1000w`}
+                          alt={item.about}/>
+                    <figcaption>{item.about}</figcaption>
+                </LazyLoadComponent>
+              </figure>
+            )
+          })
+        }
+        </div>
       </ScrollableAnchor>
     )
   }
@@ -66,25 +67,25 @@ export default class Home extends Component {
     const { portrait } = this.state;
     return (
       <ScrollableAnchor id="interior2" >
-      <div className="showcaseContainer">
-      {
-        portrait.map(item=>{
-          const {image, about, type} = item;
-          return (
-          <figure key={item.id} className="image-container-port" onClick={()=>this.enlargeItem(image, about, type, true)}>
-            <LazyLoadComponent>
-            <img  src={item.image}
-                  srcSet={`${item.imageS} 320w,
-                           ${item.imageM} 750w,
-                           ${item.image} 1000w`}
-                  alt={item.about}/>
-              <figcaption>{item.about}</figcaption>
-            </LazyLoadComponent>
-          </figure>
-          )
-        })
-      }
-      </div>
+        <div className="showcaseContainer">
+        {
+          portrait.map(item=>{
+            const {image, about, type, description} = item;
+            return (
+            <figure key={item.id} className="image-container-port" onClick={()=>this.handleModalContent(image, about, type, true, description)}>
+              <LazyLoadComponent>
+              <img  src={item.image}
+                    srcSet={`${item.imageS} 320w,
+                            ${item.imageM} 750w,
+                            ${item.image} 1200w`}
+                    alt={item.about}/>
+                <figcaption>{item.about}</figcaption>
+              </LazyLoadComponent>
+            </figure>
+            )
+          })
+        }
+        </div>
       </ScrollableAnchor>
     )
   }
@@ -92,11 +93,10 @@ export default class Home extends Component {
   closeModal = () => this.setState({modal: false})
   openModal = () => this.setState({modal: true})
 
-  enlargeItem = (item, about, type, portrait) =>{
-    this.setState({enlargeItem: {item, about, type, portrait} })
+  handleModalContent = (item, about, type, portrait, description="") =>{
+    this.setState({enlargeItem: {item, about, type, portrait, description} })
     this.openModal();
   }
-
 
   render(){
     const { enlargeItem, modal } = this.state;
@@ -104,15 +104,9 @@ export default class Home extends Component {
       <Fragment>
 
         { modal 
-          ? (
-              <div className="modal">
-                <button className="non-border modal-text" onClick={this.closeModal}>CLOSE</button>
-                <div className={enlargeItem.portrait ? 'modal-image-container-port' : 'modal-image-container'}>
-                  <img src={ enlargeItem.item } alt="largeImage"/>
-                  <p className="modal-text">{ enlargeItem.about }, { enlargeItem.type }</p>
-                </div>
-              </div>
-            )
+          ? <Modal
+              closeModal={this.closeModal}
+              enlargeItem={this.state.enlargeItem} />
           : null
         }
 
