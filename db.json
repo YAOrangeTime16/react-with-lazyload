@@ -1,0 +1,207 @@
+{
+  "all": [
+    {
+      "id": 1,
+      "image": "images/sample1.jpg",
+      "orientation": "landscape",
+      "about": "sample1",
+      "type": "deco" 
+    },
+    {
+      "id": 2,
+      "image": "images/sample2.jpg",
+      "orientation": "landscape",
+      "about": "sample2",
+      "type": "deco"
+    },
+    {
+      "id": 3,
+      "image": "images/sample3.jpg",
+      "orientation": "landscape",
+      "about": "sample3",
+      "type": "item"
+    },
+    {
+      "id": 4,
+      "image": "images/sample4.jpg",
+      "orientation": "landscape",
+      "about": "sample4",
+      "type": "deco"
+    },
+    {
+      "id": 5,
+      "image": "images/sample5.jpg",
+      "orientation": "portrait",
+      "about": "sample5",
+      "type": "item"
+    },
+    {
+      "id": 6,
+      "image": "images/sample6.jpg",
+      "orientation": "landscape",
+      "about": "sample6",
+      "type": "item"
+    },
+    {
+      "id": 7,
+      "image": "images/sample7.jpg",
+      "orientation": "portrait",
+      "about": "sample7",
+      "type": "item"
+    },
+    {
+      "id": 8,
+      "image": "images/sample8.jpg",
+      "orientation": "landscape",
+      "about": "sample8",
+      "type": "item"
+    },
+    {
+      "id": 9,
+      "image": "images/sample9.jpg",
+      "orientation": "landscape",
+      "about": "sample9",
+      "type": "item"
+    },
+    {
+      "id": 10,
+      "image": "images/sample10.jpg",
+      "orientation": "portrait",
+      "about": "sample10",
+      "type": "item"
+    },
+    {
+      "id": 11,
+      "image": "images/sample11.jpg",
+      "orientation": "landscape",
+      "about": "sample11",
+      "type": "item"
+    },
+    {
+      "id": 12,
+      "image": "images/sample12.jpg",
+      "orientation": "portrait",
+      "about": "sample12",
+      "type": "item"
+    },
+    {
+      "id": 13,
+      "image": "images/sample13.jpg",
+      "orientation": "portrait",
+      "about": "sample13",
+      "type": "item"
+    },
+    {
+      "id": 14,
+      "image": "images/sample14.jpg",
+      "orientation": "portrait",
+      "about": "sample14",
+      "type": "item"
+    },
+    {
+      "id": 15,
+      "image": "images/sample15.jpg",
+      "orientation": "landscape",
+      "about": "sample15",
+      "type": "item"
+    },
+    {
+      "id": 16,
+      "image": "images/sample16.jpg",
+      "orientation": "portrait",
+      "about": "sample16",
+      "type": "item"
+    },
+    {
+      "id": 17,
+      "image": "images/sample17.jpg",
+      "orientation": "landscape",
+      "about": "sample17",
+      "type": "item"
+    },
+    {
+      "id": 18,
+      "image": "images/sample18.jpg",
+      "orientation": "portrait",
+      "about": "sample18",
+      "type": "item"
+    },
+    {
+      "id": 19,
+      "image": "images/sample19.jpg",
+      "orientation": "portrait",
+      "about": "sample19",
+      "type": "item"
+    },
+    {
+      "id": 20,
+      "image": "images/sample20.jpg",
+      "orientation": "portrait",
+      "about": "sample20",
+      "type": "deco"
+    },
+    {
+      "id": 21,
+      "image": "images/sample21.jpg",
+      "orientation": "landscape",
+      "about": "sample21",
+      "type": "item"
+    },
+    {
+      "id": 22,
+      "image": "images/sample22.jpg",
+      "orientation": "portrait",
+      "about": "sample22",
+      "type": "item"
+    },
+    {
+      "id": 23,
+      "image": "images/sample23.jpg",
+      "orientation": "landscape",
+      "about": "sample23",
+      "type": "item"
+    },
+    {
+      "id": 24,
+      "image": "images/sample24.jpg",
+      "orientation": "portrait",
+      "about": "sample24",
+      "type": "item"
+    },
+    {
+      "id": 25,
+      "image": "images/sample25.jpg",
+      "orientation": "landscape",
+      "about": "sample25",
+      "type": "item"
+    },
+    {
+      "id": 26,
+      "image": "images/sample26.jpg",
+      "orientation": "portrait",
+      "about": "sample26",
+      "type": "item"
+    },
+    {
+      "id": 27,
+      "image": "images/sample27.jpg",
+      "orientation": "landscape",
+      "about": "sample27",
+      "type": "deco"
+    },
+    {
+      "id": 28,
+      "image": "images/sample28.jpg",
+      "orientation": "portrait",
+      "about": "sample28",
+      "type": "deco"
+    },
+    {
+      "id": 29,
+      "image": "images/sample29.jpg",
+      "orientation": "landscape",
+      "about": "sample29",
+      "type": "deco"
+    }
+  ]
+}
