@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Loadable from 'react-loadable';
 import Header  from './Header';
-import Home from './Contents/Home';
-import Nav from './Nav';
-import './App.css';
+import DefaultPage from './Contents/DefaultPage';
 
-const DefaultPage = () => (
-  <div className="container">
-    <div className="row">
-      <Nav />
-      <Home/>
-    </div>
-  </div>
-);
-const PageTwo = () => (<div>Page2</div>)
-const About = () => (<div>About</div>)
+//--- Code-splitting with the help of `react-loadable`
+const PageTwo = Loadable({
+  loader: () => import('./Contents/PageTwo'),
+  loading: ()=><div>loading</div>
+});
+
+const About = Loadable({
+  loader: () => import('./Contents/About'),
+  loading: ()=><div>loading</div>
+});
+//---------------------
 
 class App extends Component {
   render() {

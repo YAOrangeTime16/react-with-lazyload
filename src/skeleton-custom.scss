@@ -7,11 +7,68 @@ figcaption {
   z-index: 100;
 }
 
-.fixed {
+.App {
+  text-align: center;
+}
+
+.content {
+  padding-top: 11rem;
+}
+
+.fixed-header {
   position: fixed;
-  bottom: 1rem;
+  background: #ffffff;
+  z-index: 300;
+
   @media (min-width: 750px){
-    
+    border-bottom: 1px solid #e1e1e1;
+  }
+}
+
+.header-nav {
+  height: 100vh;
+  width: 50vw;
+  position: fixed;
+  top: 7rem;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  z-index: 200;
+  transition: transform 300ms linear;
+
+  &.hidden {
+    transform: translate3d(-55vw, 0, 0);
+
+    @media (min-width: 750px){
+      transform: translate3d(0vw, 0, 0);
+    }
+  }
+
+  &.show {
+    transform: translate3d(0vw, 0, 0);
+  }
+
+  @media (min-width: 750px){
+    top: 3rem;
+    background: transparent;
+    left: 0;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+.mobile-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+.mobile-menu {
+  @media (min-width: 750px){
+    display: none;
   }
 }
 
